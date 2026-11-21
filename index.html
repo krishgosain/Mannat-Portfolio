@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mannat Chhatwal · Campaign Strategy & Content</title>
 <meta name="description" content="Portfolio of Mannat Chhatwal: campaign strategy, social media and content, audience and culture insights, brand storytelling. Istituto Marangoni Paris graduate.">
 <meta name="theme-color" content="#140A0C">
@@ -12,52 +12,90 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/assets/fonts/bodoni-moda-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/bodoni-moda-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/jost-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bodoni-moda-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bodoni-moda-latin-opsz-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/img/cover.webp" as="image">
+<script>
+(function(d){try{
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+var c=d.documentElement,seen=false;
+try{seen=sessionStorage.getItem('mc-intro')==='1'}catch(e){}
+c.classList.add('intro-on','intro-hold');
+if(seen)c.classList.add('intro-quick');
+setTimeout(function(){c.classList.remove('intro-on','intro-hold')},16000);
+}catch(e){}})(document);
+</script>
+<noscript><style>.fade,.clip img,.line-mask>span{opacity:1!important;transform:none!important;clip-path:none!important;scale:1!important}</style></noscript>
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="is-loading">
+<body>
 
-<div class="loader" aria-hidden="true">
-  <div class="loader__mono"><span class="loader__mono-mask"><span>M</span></span><span class="loader__mono-mask"><span>C</span></span></div>
-  <div class="loader__meta caps"><span>Portfolio · Issue 01</span><span class="loader__count">0</span><span>Paris — New Delhi</span></div>
+<div class="intro" role="dialog" aria-modal="true" aria-label="Mannat Chhatwal, portfolio introduction">
+  <button class="intro__skip" type="button" aria-label="Skip intro"><span>Skip intro</span><i class="arr" aria-hidden="true"></i></button>
+  <div class="intro__glow" aria-hidden="true"></div>
+  <div class="intro__name" aria-hidden="true"><div class="intro__nm"><span class="ln" data-ln="Mannat"></span><span class="ln ln2" data-ln="Chhatwal"></span></div></div>
+  <div class="intro__rule" aria-hidden="true"></div>
+  <p class="intro__tag caps" aria-hidden="true">Portfolio · Issue 01</p>
+  <div class="intro__frame" aria-hidden="true"></div>
+  <div class="intro__win" aria-hidden="true"><div class="intro__cuts"></div></div>
+  <div class="intro__words" aria-hidden="true"></div>
+  <div class="intro__meta caps" aria-hidden="true"><span>Paris — New Delhi</span><span class="intro__count"><b>01</b> / 08</span></div>
+  <div class="intro__hero" aria-hidden="true"><div class="intro__heroin"><img alt="" src="/assets/img/cover.webp" width="960" height="1280" decoding="async"></div></div>
 </div>
 <div class="grain" aria-hidden="true"></div>
 <div class="cursor" aria-hidden="true"><span class="cursor__label">View</span></div>
 <div class="progress" aria-hidden="true"></div>
 
-<header class="nav">
-  <a href="#top" class="nav__name">Mannat Chhatwal</a>
+<header class="nav" id="nav">
+  <span class="nav__here caps" data-here aria-hidden="true"></span>
   <nav class="nav__links caps" aria-label="Primary">
     <a href="#contents">Work</a>
     <a href="#letter">About</a>
     <a href="#credits">Experience</a>
     <a href="#contact">Contact</a>
   </nav>
+  <button class="nav__btn caps" type="button" aria-expanded="false" aria-controls="menu"><span data-menu-label>Menu</span><i aria-hidden="true"></i></button>
 </header>
+
+<div class="menu" id="menu" aria-label="Menu" inert>
+  <div class="menu__in">
+    <p class="menu__k caps">In this issue</p>
+    <ol class="menu__list">
+      <li><a href="#casa"><span>01</span>Casa <em>Equestre</em></a></li>
+      <li><a href="#equisite"><span>02</span><em>Equisite</em></a></li>
+      <li><a href="#vera"><span>03</span>VERA <em>AI Styling</em></a></li>
+      <li><a href="#miumiu"><span>04</span>Miu <em>Miu</em></a></li>
+      <li><a href="#trends"><span>05</span>Digital <em>Culture</em></a></li>
+      <li><a href="#mix"><span>06</span>The Content <em>Mix</em></a></li>
+    </ol>
+    <ul class="menu__more">
+      <li><a href="#letter">About</a></li>
+      <li><a href="#credits">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+<div class="curtain" aria-hidden="true"><span class="curtain__label"></span></div>
 
 <main id="top">
 
 <!-- COVER -->
 <section class="cover" data-theme="noir" aria-label="Cover">
-  <div class="cover__top caps">
-    <span>Issue 01 · Campaign Strategy &amp; Content</span>
-    <span class="cover__clock">New Delhi <time data-clock>--:--</time></span>
-  </div>
-  <h1 class="cover__title" aria-label="Mannat Chhatwal">
-    <span class="line-mask"><span>Mannat</span></span>
-    <span class="line-mask l2"><span>Chhatwal</span></span>
-  </h1>
-  <figure class="cover__img clip" data-cursor="Hello">
-    <img src="/assets/img/cover.webp" alt="Mannat Chhatwal in Covent Garden, London" width="960" height="1280" fetchpriority="high">
-  </figure>
-  <div class="cover__bottom">
-    <ul class="cover__disc caps">
+  <figure class="cover__photo"><img src="/assets/img/cover.webp" alt="Mannat Chhatwal in Covent Garden, London" width="960" height="1280" fetchpriority="high" decoding="async"></figure>
+  <div class="cover__text">
+    <div class="cover__top caps">
+      <span>Issue 01</span>
+      <span class="cover__clock"><span data-clock-local>--:--</span><span class="cover__clock-in"> · New Delhi <span data-clock-in>--:--</span></span></span>
+    </div>
+    <h1 class="cover__title" aria-label="Mannat Chhatwal">
+      <span class="line-mask"><span>Mannat</span></span>
+      <span class="line-mask l2"><span>Chhatwal</span></span>
+    </h1>
+    <p class="cover__role fade">Campaign strategy &amp; content</p>
+    <ul class="cover__disc caps fade">
       <li>Campaign Strategy</li><li>Social Media &amp; Content</li><li>Audience &amp; Culture Insights</li><li>Brand Storytelling</li>
     </ul>
-    <div class="cover__scroll caps"><i></i>Scroll</div>
+    <div class="cover__scroll caps fade"><i></i>Scroll</div>
   </div>
 </section>
 
@@ -69,9 +107,9 @@
 </div>
 
 <!-- CONTENTS -->
-<section class="contents" id="contents" data-theme="noir" aria-labelledby="contents-h">
+<section class="contents" id="contents" data-label="In this issue" data-theme="noir" aria-labelledby="contents-h">
   <div class="contents__head">
-    <h2 class="contents__h" id="contents-h"><span class="line-mask"><span>In this</span></span><span class="line-mask"><span><em>issue</em></span></span></h2>
+    <h2 class="contents__h" id="contents-h"><span class="line-mask"><span>In this <em>issue</em></span></span></h2>
     <p class="contents__note caps fade">Six chapters · Client work, research &amp; strategy</p>
   </div>
   <ol class="toc">
@@ -93,7 +131,7 @@
 </div>
 
 <!-- LETTER -->
-<section class="letter" id="letter" data-theme="ivory" aria-labelledby="letter-h">
+<section class="letter" id="letter" data-label="Editor’s letter" data-theme="ivory" aria-labelledby="letter-h">
   <p class="letter__label caps fade" id="letter-h">Editor’s letter</p>
   <p class="letter__quote fade">I’m interested in what makes people <em>stop, save and share</em>, and in the consumer behaviour and culture behind it.</p>
   <figure class="letter__img clip" data-cursor="Mannat"><img src="/assets/img/portrait.webp" alt="Portrait of Mannat Chhatwal" width="1086" height="1448" loading="lazy"></figure>
@@ -108,31 +146,31 @@
 </section>
 
 <!-- 01 CASA -->
-<section class="chapter" id="casa" data-theme="casa" aria-labelledby="casa-h">
+<section class="chapter" id="casa" data-label="01 · Casa Equestre" data-theme="casa" aria-labelledby="casa-h">
   <div class="chap-head"><span class="chap-head__n">01</span><span class="caps">Client work · via Equine Edge Growth</span><span class="caps">Content &amp; Digital Brand Storytelling</span></div>
-  <h2 class="chap-title" id="casa-h"><span class="line-mask"><span>Casa</span></span><span class="line-mask"><span><em>Equestre</em></span></span></h2>
+  <h2 class="chap-title" id="casa-h"><span class="line-mask"><span>Casa <em>Equestre</em></span></span></h2>
   <div class="casa__intro">
     <p class="lede fade">A “home” for the modern rider. Social content built around the lifestyle of the rider, not only the product.</p>
     <div class="side fade">
       <ul class="tags"><li>Content &amp; Social Strategy</li><li>Campaign Ideation</li><li>Audience &amp; Competitor Research</li><li>Visual Direction</li><li>Content Planning</li></ul>
-      <p class="hint caps">Drag the reel · tap a post to open on Instagram</p>
+      <p class="hint caps"><span class="only-fine">Drag</span><span class="only-touch">Swipe</span> the reel · tap a post to open on Instagram</p>
     </div>
   </div>
   <div class="reel" data-reel data-cursor="Drag">
     <figure class="reel__item reel__item--phone"><div class="reel__frame reel__frame--phone"><img src="/assets/img/casa-1.webp" alt="Casa Equestre Instagram grid" loading="lazy" width="413" height="896"></div><figcaption class="reel__cap caps"><span>@casa_equestre</span><span>Grid I</span></figcaption></figure>
-    <a class="reel__item post" href="https://www.instagram.com/p/DYXBqa-kXF9/" target="_blank" rel="noopener"><span class="post__n">01</span><span class="post__k caps">Post</span><span class="post__go caps">Open ↗</span></a>
-    <a class="reel__item post" href="https://www.instagram.com/p/DYBOKgbl6-P/" target="_blank" rel="noopener"><span class="post__n">02</span><span class="post__k caps">Post</span><span class="post__go caps">Open ↗</span></a>
-    <a class="reel__item post" href="https://www.instagram.com/reel/DYH30tVtRg_/" target="_blank" rel="noopener"><span class="post__n">03</span><span class="post__k caps">Reel</span><span class="post__go caps">Watch ↗</span></a>
+    <a class="reel__item post" href="https://www.instagram.com/p/DYXBqa-kXF9/" target="_blank" rel="noopener"><span class="post__n">01</span><span class="post__k caps">Post</span><span class="post__go caps">Open <i class="arr" aria-hidden="true"></i></span></a>
+    <a class="reel__item post" href="https://www.instagram.com/p/DYBOKgbl6-P/" target="_blank" rel="noopener"><span class="post__n">02</span><span class="post__k caps">Post</span><span class="post__go caps">Open <i class="arr" aria-hidden="true"></i></span></a>
+    <a class="reel__item post" href="https://www.instagram.com/reel/DYH30tVtRg_/" target="_blank" rel="noopener"><span class="post__n">03</span><span class="post__k caps">Reel</span><span class="post__go caps">Watch <i class="arr" aria-hidden="true"></i></span></a>
     <figure class="reel__item reel__item--phone"><div class="reel__frame reel__frame--phone"><img src="/assets/img/casa-2.webp" alt="Casa Equestre Instagram grid, later posts" loading="lazy" width="413" height="896"></div><figcaption class="reel__cap caps"><span>@casa_equestre</span><span>Grid II</span></figcaption></figure>
-    <a class="reel__item post" href="https://www.instagram.com/p/DYdfbOZqkR5/" target="_blank" rel="noopener"><span class="post__n">04</span><span class="post__k caps">Post</span><span class="post__go caps">Open ↗</span></a>
-    <a class="reel__item post" href="https://www.instagram.com/p/DZvT_diFGjq/" target="_blank" rel="noopener"><span class="post__n">05</span><span class="post__k caps">Post</span><span class="post__go caps">Open ↗</span></a>
-    <a class="reel__item post" href="https://www.instagram.com/p/DZYAMkQFEG9/" target="_blank" rel="noopener"><span class="post__n">06</span><span class="post__k caps">Post</span><span class="post__go caps">Open ↗</span></a>
+    <a class="reel__item post" href="https://www.instagram.com/p/DYdfbOZqkR5/" target="_blank" rel="noopener"><span class="post__n">04</span><span class="post__k caps">Post</span><span class="post__go caps">Open <i class="arr" aria-hidden="true"></i></span></a>
+    <a class="reel__item post" href="https://www.instagram.com/p/DZvT_diFGjq/" target="_blank" rel="noopener"><span class="post__n">05</span><span class="post__k caps">Post</span><span class="post__go caps">Open <i class="arr" aria-hidden="true"></i></span></a>
+    <a class="reel__item post" href="https://www.instagram.com/p/DZYAMkQFEG9/" target="_blank" rel="noopener"><span class="post__n">06</span><span class="post__k caps">Post</span><span class="post__go caps">Open <i class="arr" aria-hidden="true"></i></span></a>
   </div>
   <div class="reel-bar" aria-hidden="true"><i></i></div>
 </section>
 
 <!-- 02 EQUISITE -->
-<section class="chapter" id="equisite" data-theme="racing" aria-labelledby="eq-h">
+<section class="chapter" id="equisite" data-label="02 · Equisite" data-theme="racing" aria-labelledby="eq-h">
   <div class="chap-head"><span class="chap-head__n">02</span><span class="caps">Client work · via Equine Edge Growth</span><span class="caps">Social Media &amp; Brand Content</span></div>
   <div class="eq">
     <div class="eq__sticky">
@@ -143,23 +181,23 @@
     </div>
     <div class="eq__right">
       <div class="eq__phones">
-        <figure class="eq__cell clip" data-cursor="Equisite"><img data-speed="-0.06" src="/assets/img/eq-1.webp" alt="Equisite Instagram grid" width="413" height="896" loading="lazy"></figure>
-        <figure class="eq__cell clip" data-cursor="Equisite"><img data-speed="0.06" src="/assets/img/eq-2.webp" alt="Equisite Instagram grid, later posts" width="413" height="896" loading="lazy"></figure>
+        <figure class="eq__cell clip" data-cursor="Equisite"><img src="/assets/img/eq-1.webp" alt="Equisite Instagram grid" width="413" height="896" loading="lazy"></figure>
+        <figure class="eq__cell clip" data-cursor="Equisite"><img src="/assets/img/eq-2.webp" alt="Equisite Instagram grid, later posts" width="413" height="896" loading="lazy"></figure>
       </div>
       <ol class="looks">
-        <li><a href="https://www.instagram.com/p/DZAoMIkji2r/" target="_blank" rel="noopener"><span>Look 01</span><em>Post</em><i>↗</i></a></li>
-        <li><a href="https://www.instagram.com/p/DZaNhy7Drod/" target="_blank" rel="noopener"><span>Look 02</span><em>Post</em><i>↗</i></a></li>
-        <li><a href="https://www.instagram.com/p/DZu8pV4Dirg/" target="_blank" rel="noopener"><span>Look 03</span><em>Post</em><i>↗</i></a></li>
-        <li><a href="https://www.instagram.com/p/DZSnX22jrsa/" target="_blank" rel="noopener"><span>Look 04</span><em>Post</em><i>↗</i></a></li>
-        <li><a href="https://www.instagram.com/p/DZpzm50kQXj/" target="_blank" rel="noopener"><span>Look 05</span><em>Post</em><i>↗</i></a></li>
-        <li><a href="https://www.instagram.com/reel/C5QjT4XrvHe/" target="_blank" rel="noopener"><span>Look 06</span><em>Reel</em><i>↗</i></a></li>
+        <li><a href="https://www.instagram.com/p/DZAoMIkji2r/" target="_blank" rel="noopener"><span>Look 01</span><em>Post</em><i class="arr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/p/DZaNhy7Drod/" target="_blank" rel="noopener"><span>Look 02</span><em>Post</em><i class="arr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/p/DZu8pV4Dirg/" target="_blank" rel="noopener"><span>Look 03</span><em>Post</em><i class="arr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/p/DZSnX22jrsa/" target="_blank" rel="noopener"><span>Look 04</span><em>Post</em><i class="arr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/p/DZpzm50kQXj/" target="_blank" rel="noopener"><span>Look 05</span><em>Post</em><i class="arr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/reel/C5QjT4XrvHe/" target="_blank" rel="noopener"><span>Look 06</span><em>Reel</em><i class="arr" aria-hidden="true"></i></a></li>
       </ol>
     </div>
   </div>
 </section>
 
 <!-- 03 VERA -->
-<section class="chapter" id="vera" data-theme="blush" aria-labelledby="vera-h">
+<section class="chapter" id="vera" data-label="03 · VERA" data-theme="blush" aria-labelledby="vera-h">
   <div class="chap-head"><span class="chap-head__n">03</span><span class="caps">AI styling platform</span><span class="caps">Consumer &amp; Digital Strategy</span></div>
   <div class="vera__top">
     <div class="vera__copy">
@@ -201,6 +239,7 @@
       <button class="step" role="tab" aria-selected="false" data-i="4"><span>V</span><strong>Launch</strong></button>
     </div>
     <div class="journey__panel" role="tabpanel" aria-live="polite">
+      <h4 class="journey__t" data-panel-title><span>I</span> Problem</h4>
       <p data-panel>Open on the fashion pain points the audience already recognises: “nothing to wear”, endless scrolling, styles that don’t fit.</p>
       <span class="caps" data-panel-tag>Instagram · TikTok</span>
     </div>
@@ -214,7 +253,7 @@
 </section>
 
 <!-- 04 MIU MIU -->
-<section class="chapter" id="miumiu" data-theme="powder" aria-labelledby="miu-h">
+<section class="chapter" id="miumiu" data-label="04 · Miu Miu" data-theme="powder" aria-labelledby="miu-h">
   <div class="chap-head"><span class="chap-head__n">04</span><span class="caps">Case study</span><span class="caps">Social Media &amp; Creative Direction</span></div>
   <h2 class="chap-title" id="miu-h"><span class="line-mask"><span>Miu <em>Miu</em></span></span></h2>
   <div class="miu__cols">
@@ -225,19 +264,19 @@
     </div>
   </div>
   <div class="board" data-board>
-    <figure class="board__pic" style="left:2%;top:4%;width:30%;height:58%;--r:-4deg"><img src="/assets/img/miu-mood.webp" alt="Miu Miu creative direction moodboard" width="750" height="1124" loading="lazy"></figure>
-    <figure class="board__pic" style="left:36%;top:14%;width:21%;height:62%;--r:3deg"><img src="/assets/img/miu-profile.webp" alt="Miu Miu Instagram profile analysis" width="468" height="1013" loading="lazy"></figure>
-    <figure class="board__pic" style="left:60%;top:0%;width:21%;height:62%;--r:-2deg"><img src="/assets/img/miu-post.webp" alt="Miu Miu Instagram post analysis" width="468" height="1013" loading="lazy"></figure>
-    <figure class="board__pic" style="left:72%;top:46%;width:25%;height:50%;--r:5deg"><img src="/assets/img/miu-board.webp" alt="Miu Miu campaign storytelling notes" width="508" height="718" loading="lazy"></figure>
-    <figure class="board__pic" style="left:14%;top:60%;width:24%;height:38%;--r:2deg"><img src="/assets/img/glove.webp" alt="Red glove, visual reference" width="807" height="1434" loading="lazy"></figure>
-    <p class="board__note" style="left:42%;top:82%">Consistent, but never predictable.</p>
+    <figure class="board__pic" style="--l:2%;--t:4%;--w:30%;--h:58%;--r:-4deg"><img src="/assets/img/miu-mood.webp" alt="Miu Miu creative direction moodboard" width="750" height="1124" loading="lazy"></figure>
+    <figure class="board__pic" style="--l:36%;--t:14%;--w:21%;--h:62%;--r:3deg"><img src="/assets/img/miu-profile.webp" alt="Miu Miu Instagram profile analysis" width="468" height="1013" loading="lazy"></figure>
+    <figure class="board__pic" style="--l:60%;--t:0%;--w:21%;--h:62%;--r:-2deg"><img src="/assets/img/miu-post.webp" alt="Miu Miu Instagram post analysis" width="468" height="1013" loading="lazy"></figure>
+    <figure class="board__pic" style="--l:72%;--t:46%;--w:25%;--h:50%;--r:5deg"><img src="/assets/img/miu-board.webp" alt="Miu Miu campaign storytelling notes" width="508" height="718" loading="lazy"></figure>
+    <figure class="board__pic" style="--l:14%;--t:60%;--w:24%;--h:38%;--r:2deg"><img src="/assets/img/glove.webp" alt="Red glove, visual reference" width="807" height="1434" loading="lazy"></figure>
+    <p class="board__note" style="--l:42%;--t:82%">Consistent, but never predictable.</p>
   </div>
 </section>
 
 <!-- 05 TRENDS -->
-<section class="chapter" id="trends" data-theme="ink" aria-labelledby="tr-h">
+<section class="chapter" id="trends" data-label="05 · Digital Culture" data-theme="ink" aria-labelledby="tr-h">
   <div class="chap-head"><span class="chap-head__n">05</span><span class="caps">Research</span><span class="caps">Trend Forecasting &amp; Digital Culture</span></div>
-  <h2 class="chap-title" id="tr-h"><span class="line-mask"><span>Digital</span></span><span class="line-mask"><span><em>Culture</em></span></span></h2>
+  <h2 class="chap-title" id="tr-h"><span class="line-mask"><span>Digital <em>Culture</em></span></span></h2>
   <div class="trend__lede">
     <p class="lede fade">How niche online behaviour moves into mainstream consumer culture, and what that means for brands.</p>
     <div class="side fade">
@@ -265,9 +304,9 @@
 </section>
 
 <!-- 06 MIX -->
-<section class="chapter" id="mix" data-theme="noir" aria-labelledby="mix-h">
+<section class="chapter" id="mix" data-label="06 · The Content Mix" data-theme="noir" aria-labelledby="mix-h">
   <div class="chap-head"><span class="chap-head__n">06</span><span class="caps">Framework</span><span class="caps">Social Content Strategy</span></div>
-  <h2 class="chap-title" id="mix-h"><span class="line-mask"><span>The Content</span></span><span class="line-mask"><span><em>Mix</em></span></span></h2>
+  <h2 class="chap-title" id="mix-h"><span class="line-mask"><span>The Content <em>Mix</em></span></span></h2>
   <div class="mix__wrap">
     <div class="mix">
       <button class="fmt fade"><span class="fmt__n">i</span><span class="fmt__t">Product<em>-led</em></span><span class="fmt__d"><span class="caps">Example</span>Product styling &amp; use-case content<span class="caps">Objective</span>Build interest &amp; consideration</span></button>
@@ -278,14 +317,14 @@
     <figure class="mix__img clip" data-cursor="Grid"><img src="/assets/img/mix-grid.webp" alt="Planned Instagram grid showing the content mix" width="675" height="1200" loading="lazy"></figure>
   </div>
   <div class="mix__foot fade">
-    <p>Every format has one job, from awareness to community. Then test, and refine on what audiences respond to. <span class="caps hint-inline">Hover a format</span></p>
+    <p>Every format has one job, from awareness to community. Then test, and refine on what audiences respond to. <span class="caps hint-inline"><span class="only-fine">Hover</span><span class="only-touch">Tap</span> a format</span></p>
     <ul class="tags"><li>Social Content Strategy</li><li>Audience Engagement</li><li>Planning &amp; Optimisation</li></ul>
   </div>
 </section>
 
 <!-- CREDITS -->
-<section class="credits" id="credits" data-theme="ivory" aria-labelledby="cr-h">
-  <h2 class="credits__h" id="cr-h"><span class="line-mask"><span>The</span></span><span class="line-mask"><span><em>Credits</em></span></span></h2>
+<section class="credits" id="credits" data-label="The Credits" data-theme="ivory" aria-labelledby="cr-h">
+  <h2 class="credits__h" id="cr-h"><span class="line-mask"><span>The <em>Credits</em></span></span></h2>
   <ol class="roles">
     <li class="role fade"><span class="role__y">2026 — Now</span><span class="role__co">Senryx <em>Group</em></span><span class="role__t">Project Manager · US insurance agency clients</span><span class="role__pl caps">Remote</span></li>
     <li class="role fade"><span class="role__y">2026</span><span class="role__co">Equine Edge <em>Consulting</em></span><span class="role__t">Founder’s Office, Marketing &amp; Content Strategy</span><span class="role__pl caps">Remote</span></li>
@@ -309,20 +348,20 @@
 </section>
 
 <!-- CONTACT -->
-<section class="contact" id="contact" data-theme="claret" aria-labelledby="ct-h">
+<section class="contact" id="contact" data-label="Contact" data-theme="claret" aria-labelledby="ct-h">
   <div class="contact__mid">
     <p class="caps fade">Open to campaign, content &amp; brand roles</p>
-    <h2 class="contact__big" id="ct-h"><span class="line-mask"><span>Let’s make</span></span><span class="line-mask"><span>something <em>worth</em></span></span><span class="line-mask"><span><em>saving.</em></span></span></h2>
-    <div class="fade" style="display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap">
+    <h2 class="contact__big" id="ct-h"><span class="line-mask"><span>Let’s make something</span></span> <span class="line-mask"><span><em>worth saving.</em></span></span></h2>
+    <div class="contact__row fade">
       <a class="mail" href="mailto:mannatchhatwal9@gmail.com" data-cursor="Write">mannatchhatwal9@gmail.com</a>
-      <button class="copy" data-copy="mannatchhatwal9@gmail.com">Copy email</button>
+      <button class="copy caps" type="button" data-copy="mannatchhatwal9@gmail.com">Copy email</button>
     </div>
   </div>
   <footer class="colophon caps">
     <span>© 2026 Mannat Chhatwal</span>
     <a href="tel:+919818189986">+91 98181 89986</a>
     <span>New Delhi, India</span>
-    <a href="#top">Back to cover ↑</a>
+    <a href="#top">Back to cover <i class="arr arr--up" aria-hidden="true"></i></a>
   </footer>
 </section>
 
