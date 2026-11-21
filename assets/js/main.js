@@ -17,6 +17,7 @@
     const raf = t => { lenis.raf(t); requestAnimationFrame(raf); };
     requestAnimationFrame(raf);
     lenis.stop();
+    window.__mcLenis = lenis;
   }
   const lockScroll = () => { root.classList.add('is-locked'); lenis && lenis.stop(); };
   const unlockScroll = () => { root.classList.remove('is-locked'); lenis && lenis.start(); };
@@ -179,6 +180,7 @@
     });
   }
 
+  window.__mcReady = true;
   if (intro && root.classList.contains('intro-on')) runIntro();
   else { if (intro) intro.remove(); setTimeout(showCover, 150); unlockScroll(); }
 

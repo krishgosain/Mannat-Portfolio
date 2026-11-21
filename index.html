@@ -22,11 +22,11 @@ var c=d.documentElement,seen=false;
 try{seen=sessionStorage.getItem('mc-intro')==='1'}catch(e){}
 c.classList.add('intro-on','intro-hold');
 if(seen)c.classList.add('intro-quick');
-setTimeout(function(){c.classList.remove('intro-on','intro-hold')},16000);
+setTimeout(function(){c.classList.remove('intro-on','intro-hold');if(!window.__mcReady){c.classList.remove('is-locked');var i=d.querySelector('.intro');if(i)i.remove();if(window.__mcLenis)window.__mcLenis.start();}},16000);
 }catch(e){}})(document);
 </script>
 <noscript><style>.fade,.clip img,.line-mask>span{opacity:1!important;transform:none!important;clip-path:none!important;scale:1!important}</style></noscript>
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css?v=1795267163">
 </head>
 <body>
 
@@ -367,7 +367,7 @@ setTimeout(function(){c.classList.remove('intro-on','intro-hold')},16000);
 
 </main>
 
-<script src="/assets/js/lenis.min.js" defer></script>
-<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/lenis.min.js?v=1795267163" defer></script>
+<script src="/assets/js/main.js?v=1795267163" defer></script>
 </body>
 </html>
